@@ -1,24 +1,74 @@
-# FilePathCopier
+# Windows File Copier Scripts
 
-一个简单实用的脚本，通过快捷键 `Enter` 自动复制当前活动窗口中文件路径到剪贴板，支持文件管理器窗口（如Windows资源管理器）。
+[English](README.md)
 
-## 功能
-- 快速复制当前活动窗口中的文件路径到剪贴板。
-- 支持Windows资源管理器（`CabinetWClass` 和 `ExploreWClass` 类名）。
-- 提供用户友好的提示，显示已复制的文件路径。
+[Chinese](README_zh.md)
 
-## 使用方法
-1. 安装并运行 [AutoHotkey](https://www.autohotkey.com/)。
-2. 将[脚本](FilePathCopier.ahk)下载。
-3. 双击运行该脚本。
-4. 在文件管理器中选中文件或文件夹，按 `Enter` 键即可复制文件路径。
+## Overview
 
-## 自定义
-- 如果需要支持其他应用程序，您可以通过修改 `WinGetClass` 判断条件来添加更多窗口类名。
+This repository contains three AutoHotkey (AHK) scripts that enhance file copying functionality in Windows File Explorer:
 
-## 安装步骤
-1. 确保安装 [AutoHotkey](https://www.autohotkey.com/)。
-2. 克隆此仓库并运行脚本。
+1. [FileNameCopier.ahk](FileNameCopier.ahk): Copies the full file name with extension
+2. [FileNameCopier (NoExt).ahk](FileNameCopier(NoExt).ahk): Copies the file name without extension
+3. [FilePathCopier.ahk](FilePathCopier.ahk): Copies the full file path
 
-## 许可
-[MIT License](LICENSE)
+## Prerequisites
+
+- Windows operating system
+- [AutoHotkey](https://www.autohotkey.com/) installed
+
+## Installation
+
+1. Download and install AutoHotkey from the official website.
+2. Download the desired `.ahk` script(s) from this repository.
+3. Double-click the script to run it, or place it in your AutoHotkey startup folder.
+
+## Usage
+
+### FileNameCopier.ahk
+
+- Open Windows File Explorer
+- Select a file
+- Press the `Enter` key
+- The full file name (with extension) will be copied to your clipboard
+- A tooltip will briefly appear confirming the copied file name
+
+### FileNameCopier (NoExt).ahk
+
+- Open Windows File Explorer
+- Select a file
+- Press the `Enter` key
+- The file name (without extension) will be copied to your clipboard
+- A tooltip will briefly appear confirming the copied file name
+
+### FilePathCopier.ahk
+
+- Open Windows File Explorer
+- Select a file
+- Press the `Enter` key
+- The full file path will be copied to your clipboard
+- A tooltip will briefly appear confirming the copied file path
+
+## Customization
+
+You can modify the scripts to:
+- Change the hotkey (currently set to `Enter`)
+- Adjust tooltip display time
+- Add additional file explorer window class support
+
+## Requirements
+
+- Windows File Explorer (Windows 10/11)
+- AutoHotkey v1.1+
+
+## License
+
+[Specify your license here, e.g., MIT License]
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## Support
+
+If you encounter any problems or have suggestions, please [open an issue](your-github-repo-issues-link).
