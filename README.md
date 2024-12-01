@@ -1,4 +1,5 @@
 # Windows File Copier Scripts
+![GitHub License](https://img.shields.io/github/license/misaka12843/FilePathCopier)
 
 [English](README.md)
 
@@ -63,7 +64,7 @@ You can modify the scripts to:
 
 ## License
 
-[Specify your license here, e.g., MIT License]
+[MIT License](https://github.com/misaka12843/FilePathCopier/blob/main/LICENSE)
 
 ## Contributing
 
@@ -71,4 +72,4 @@ Contributions, issues, and feature requests are welcome!
 
 ## Support
 
-If you encounter any problems or have suggestions, please [open an issue](your-github-repo-issues-link).
+If you encounter any problems or have suggestions, please [open an issue](https://github.com/misaka12843/FilePathCopier/issues).
