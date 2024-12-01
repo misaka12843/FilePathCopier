@@ -3,7 +3,7 @@
 
 [English](README.md)
 
-[Chinese](README_zh.md)
+[中文](README_zh.md)
 
 ## Overview
 
